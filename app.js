@@ -22,14 +22,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/generic", (req, res) => {
-  res.render("home", {
+  res.render("generic", {
     name: "Lainer Cáceres",
     title: "Curso de Node"
   });
 });
 
 app.get("/elements", (req, res) => {
-  res.render("home", {
+  res.render("elements", {
     name: "Lainer Cáceres",
     title: "Curso de Node"
   });
